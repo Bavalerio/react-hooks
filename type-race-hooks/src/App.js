@@ -39,6 +39,8 @@ const App = () => {
       <h2 className='h1-header'>Type Race</h2>
       <hr />
       <h3 className='h1-header'>Snippet</h3>
+
+      <hr />
       {snippet}
       <h4>{gameState.victory ? `Done! 🎉 Time: ${gameState.endTime}ms` : null}</h4>
       <input className='input-container' value={userText} onChange={updateUserText}  />
